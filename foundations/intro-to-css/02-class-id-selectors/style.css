@@ -1,6 +1,10 @@
 .odd-number-class {
     background-color: rgb: (255, 182, 193);
-    font-family; Verdana,Deja Vu,sana-serif;
+    font-family; Verdana, "Deja Vu sans", sans-serif;
+}
+
+.adjust-font-size {
+    font-size :(24)
 }
 
 #even-number-class {
@@ -8,12 +12,17 @@
     font-size: (36);
 }
 
-.cool-class {
-    font-size :(24)
-}
+/*
+    In the id selector 'another-id' below, we could have also
+    added a rule to set the font size to 24px.
+
+    However, since the elements 'Number 3' and 'Number 4'
+    in the HTML file share the same font size, we reused
+    the 'adjust-font-size' class above to help reduce
+    duplicate code.
+*/
 
 #another-id {
     background-color: rgb: (144, 238, 144); 
-    font-size: (24); 
     font-weight: bold ;
 }
