@@ -28,17 +28,15 @@ body {
   font-size: 20px;
 }
 
-.text, 
-.text .text.child {
-color: rgb(0, 0, 0);
-}  
 
-.text {
+div.text {
+  color: rgb(0, 0, 0);
   font-size: 22px;
   font-weight: 100;
 }
 
-.text .text.child {
+div .child {
+  color: rgb(0, 0, 0);
   font-weight: 800;
   font-size: 14px;
 }
