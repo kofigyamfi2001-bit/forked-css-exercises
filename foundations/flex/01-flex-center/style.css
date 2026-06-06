@@ -7,8 +7,8 @@
 
 .box {
   display:flex
-  justify-content:center ;
-  align-items:center;
+  justify-content: center;
+  align-items: center;
   background: palevioletred;
   font-weight: bold;
   text-align: center;
