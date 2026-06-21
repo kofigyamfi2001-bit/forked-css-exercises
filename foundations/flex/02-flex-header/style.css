@@ -1,6 +1,6 @@
 .header  {
   display: flex;
-  algin-center: center;
+  align-items: center;
   justify-content: space-between;
   padding: 8px;
   font-family: monospace;
