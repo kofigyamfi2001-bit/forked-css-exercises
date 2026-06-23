@@ -16,8 +16,8 @@ a {
 
 
 content {
-  flex: 1
   display: flex;
+  flex: 1;
   justify-between: center;
   align-center: center;
   flex-direction: column;
@@ -67,7 +67,7 @@ ul {
   list-style: none;
   margin: 0px;
   padding: 0px;
-  gap: 16px  
+  gap: 16px;
 }
 
 
